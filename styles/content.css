@@ -1,0 +1,49 @@
+section#about {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+section#about h2 {
+  font-size: 42px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 4px 10px;
+  transition: 0.3s;
+  text-decoration: none;
+  display: inline-block;
+  border: 3px solid rgb(67, 85, 252);
+  border-radius: 10px;
+}
+section#about h2:hover {
+  color: green;
+  text-decoration: underline;
+}
+section#about p {
+  color: yellowgreen;
+}
+
+section.blog {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+section.blog h2 {
+  font-size: 42px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 4px 10px;
+  transition: 0.3s;
+  text-decoration: none;
+  display: inline-block;
+  border: 3px solid rgb(67, 85, 252);
+  border-radius: 10px;
+}
+section.blog h2:hover {
+  color: green;
+  text-decoration: underline;
+}
+section.blog p {
+  line-height: 1.5;
+}
+section.blog p::first-letter {
+  font-size: 52px;
+  color: aqua;
+}/*# sourceMappingURL=content.css.map */

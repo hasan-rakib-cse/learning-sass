@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f8f7f7;
+}
+
+.wrapper {
+  padding: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  background: #6259ca;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+header p {
+  font-size: 14px;
+  color: #fff;
+  text-align: right;
+}
+
+nav {
+  background-color: aqua;
+  padding: 10px 20px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px 2px red;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li:last-child {
+  margin-right: 0;
+  margin-left: auto;
+}
+nav ul li:last-child a {
+  box-shadow: 1px 1px 1px 2px rgb(0, 26, 255);
+}
+nav ul li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 20px;
+  text-transform: capitalize;
+  font: arial;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: #fff;
+  transition: 0.3s;
+  box-shadow: 2px 2px 10px 1px #ff008c;
+}
+nav ul li a:hover {
+  background: #ddd;
+}
+
+section#about {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+section#about h2 {
+  font-size: 42px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 4px 10px;
+  transition: 0.3s;
+  text-decoration: none;
+  display: inline-block;
+  border: 3px solid rgb(67, 85, 252);
+  border-radius: 10px;
+}
+section#about h2:hover {
+  color: green;
+  text-decoration: underline;
+}
+section#about p {
+  color: yellowgreen;
+}
+
+section.blog {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+section.blog h2 {
+  font-size: 42px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 4px 10px;
+  transition: 0.3s;
+  text-decoration: none;
+  display: inline-block;
+  border: 3px solid rgb(67, 85, 252);
+  border-radius: 10px;
+}
+section.blog h2:hover {
+  color: green;
+  text-decoration: underline;
+}
+section.blog p {
+  line-height: 1.5;
+}
+section.blog p::first-letter {
+  font-size: 52px;
+  color: aqua;
+}
+
+footer {
+  margin-top: 30px;
+  color: red;
+}/*# sourceMappingURL=style.css.map */

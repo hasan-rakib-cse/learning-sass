@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #6259ca;
+    padding: 10px 20px;
+    border-radius: 8px;
+
+    p {
+        font-size: 14px;
+        color: #fff;
+        text-align: right;
+    }
+}

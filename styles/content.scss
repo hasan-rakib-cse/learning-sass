@@ -1,0 +1,62 @@
+@mixin section-default-margin() {
+    margin-top: 30px;
+    margin-bottom: 20px;
+} 
+
+@mixin main-heading2() {
+    font-size: 42px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 4px 10px;
+    transition: .3s;
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid rgb(67, 85, 252);
+    @include border-radius(10px);
+}
+
+@mixin main-heading2-hover() {
+    color: green;
+    text-decoration: underline;
+}
+
+@mixin border-radius($value) {
+    border-radius: $value;
+}
+
+section#about {
+    @include section-default-margin();
+
+    h2 {
+        @include main-heading2();
+        
+        &:hover {
+            @include main-heading2-hover();
+        }
+    }
+
+    p {
+        color: yellowgreen;
+    }
+}
+
+section.blog {
+    @include section-default-margin();
+
+    h2 {
+        @include main-heading2();
+        
+        &:hover {
+            @include main-heading2-hover();
+        }
+    }
+    p {
+        line-height: 1.5;
+
+        &::first-letter {
+            font-size: 52px;
+            color: aqua;
+        }
+
+    }
+}
